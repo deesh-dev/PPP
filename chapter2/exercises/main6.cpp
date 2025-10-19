@@ -14,6 +14,6 @@ int main(void){
     nums.push_back(z);
 
     std::sort(nums.begin(), nums.end());
-    for (int i = 0; i < nums.size(); i++) std::cout << nums[i] ;
+    for (int i = 0; i < nums.size(); i++) std::cout << nums[i] << ' ' ;
     std::cout << '\n';
 }
