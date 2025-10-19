@@ -5,9 +5,7 @@
 int main(void){
     std::cout << "Enter three integer values: ";
     std::vector <int> nums;
-    int x{};
-    int y{};
-    int z{};
+    int x, y, z;
     std::cin >> x >> y >> z;
     nums.push_back(x);
     nums.push_back(y);
