@@ -13,7 +13,7 @@ int main(void){
     if (currency == "yen") std::cout << value << " yen = " << value * yenPerDollar << " dollars\n";
     else if (currency == "krone") std::cout << value << " krone = " << value * kronePerDollar << " dollars\n";
     else if (currency == "pound") std::cout << value << " pound = " << value * poundPerDollar << " dollars\n";
-    else std::cout << "I don't know any '" << currency << "' currency\n";
+    else std::cout << "Sorry I don't know any currency called " << currency << '\n';
 
     return 0;
 }
