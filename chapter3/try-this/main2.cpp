@@ -27,4 +27,5 @@ int main(void){
         default:
             std::cout << "Sorry I don't know any currency called " << currency << '\n';
     }
+    return 0;
 }
