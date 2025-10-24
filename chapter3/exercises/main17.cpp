@@ -23,5 +23,5 @@ int main(void){
     << a << "x²" << " + " << b << "x" << " + " << c << " = 0 "
     << "are " << root1 << " and " << root2 << '\n';
 
-
+    return 0;
 }
