@@ -26,5 +26,5 @@ int main(void){
 
     for (int num : primeNum) std::cout << num << '\n';
 
-
+    return 0;
 }
