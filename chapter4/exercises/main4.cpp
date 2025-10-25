@@ -8,11 +8,12 @@ int main()
     std::cout << "Enter the celcius temperature: ";
     std::cin >> c;
     std::cout << c << "°C = " << ctok(c) << " K\n";
-
 }
 
-double ctok(double c)                 // converts Celsius to Kelvin
-{
+double ctok(double c){            // converts Celsius to Kelvin
+    if (c < -273.15){
+        throw std::runtime_error("Temperature can't be below -273.15°C\n");
+    }
     double k = c + 273.15;
     return k;
 }
